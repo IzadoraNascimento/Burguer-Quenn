@@ -12,7 +12,6 @@ function FormLogin() {
 
   return (
     <>
-      <h1>Burguer Queen</h1>
       <img src={Logo} />
       <form>
         <label>E-mail:</label>
@@ -22,8 +21,7 @@ function FormLogin() {
         <input type="password" name="password" value={valueInputPassword} placeholder="Digite sua senha"/>
         <button>Entrar</button>
       </form>
-      </>
-        
+    </>        
   )
 }
 

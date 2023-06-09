@@ -1,7 +1,7 @@
 import FormLogin from "./componentes/FormLogin/FormLogin";
 
-function App(){
+function Login(){
   return <FormLogin/>
 }
 
-export default App
+export default Login
