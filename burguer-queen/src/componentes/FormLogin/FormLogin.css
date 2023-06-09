@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+label {
+  text-align: right;
+  margin-right: 10px;
+}
+
+input {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #EA96EC;
+}
+
+button {
+  margin-top: 10px;
+}
