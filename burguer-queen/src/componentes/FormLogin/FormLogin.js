@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import Logo from "../../imagens/logo.png"
+import Logo from "../../imagens/logo.png";
 import "./FormLogin.css";
+import { Link } from "react-router-dom";
 
 
 function FormLogin() {
@@ -23,7 +24,7 @@ function FormLogin() {
             <label>Senha:</label>
             <input type="password" name="password" value={valueInputPassword} placeholder="Digite sua senha"/>
           </div>
-          <button>Entrar</button>
+          <button><Link to="/pagina-secundaria">Entrar</Link></button>
         </form>
     </div>        
   )
