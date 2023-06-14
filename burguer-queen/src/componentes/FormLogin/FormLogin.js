@@ -24,7 +24,7 @@ function FormLogin() {
             <label>Senha:</label>
             <input type="password" name="password" value={valueInputPassword} placeholder="Digite sua senha"/>
           </div>
-          <button><Link to="/pagina-secundaria">Entrar</Link></button>
+          <button className="button"><Link to="/pagina-secundaria">Entrar</Link></button>
         </form>
     </div>        
   )

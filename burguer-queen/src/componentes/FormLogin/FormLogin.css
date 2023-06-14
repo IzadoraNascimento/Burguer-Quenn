@@ -2,7 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Arimo', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
 
 .container {
   display: flex;
@@ -22,6 +26,7 @@ form {
   grid-template-columns: 1fr;
   grid-gap: 10px;
   align-items: center;
+  height: 30%;
 }
 
 .form-group {
@@ -33,16 +38,20 @@ form {
 label {
   text-align: right;
   margin-right: 10px;
+  color: #049505;
 }
 
 input {
   max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+  height: 30px;
+  border-radius: 10px;
   border-width: 3px;
   border-color: #EA96EC;
 }
 
-button {
+.button {
   margin-top: 10px;
+  background-color: #EA96EC;
+  height: 30px;
+  border-radius: 10px;
 }
