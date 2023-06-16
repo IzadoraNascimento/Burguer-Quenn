@@ -13,8 +13,8 @@ function FormLogin() {
   }
 
   return (
-    <div class="container">
-      <img class="logo" src={Logo} />
+    <div className="container">
+      <img className="logo" src={Logo} />
         <form>
           <div className="form-group">
             <label>E-mail:</label>
