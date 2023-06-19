@@ -1,5 +1,5 @@
 import React from "react";
-import Titulo from "../../imagens/titulo.png";
+import Titulo from "../../imagens/titulo2.png";
 
 function Menu() {
   return (
