@@ -1,12 +1,15 @@
 import React from "react";
 import Titulo from "../../imagens/titulo2.png";
+import "./Menu.css";
 
 function Menu() {
   return (
-    <div>
+    <div className="containerMenu">
       <img className="titulo" src={Titulo}/>
-      <button>Café da Manhã</button>
-      <button>Almoço e Janta</button>
+      <section>
+        <button>Café da Manhã</button>
+        <button>Almoço e Janta</button>
+      </section>
     </div>
   )
 }
